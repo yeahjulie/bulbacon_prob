@@ -20,6 +20,6 @@ def run_test(initial_pos, n_iter=1000):
                 pos_x += 1
         if (pos_x, pos_y) == initial_pos:
             successes += 1
-    print('Probability of staying in the same cell = %.2f' % (successes/n_iter))
+    print('Probability of staying in the same cell = %.2f' % (successes / n_iter))
 
-run_test((0, 0), n_iter=1000000000)
+run_test((0, 0), n_iter=1000000)
